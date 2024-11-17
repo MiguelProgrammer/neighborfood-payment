@@ -1,0 +1,6 @@
+.openapi-generator-ignore
+README.md
+pom.xml
+src/main/java/_generated_sources_swagger_pagamento/ApiUtil.java
+src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java
+src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java

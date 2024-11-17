@@ -1,0 +1,24 @@
+/*
+ * Copyright (c) 2024. MiguelProgrammer
+ */
+
+package br.com.techchallenge.fiap.neighborfood.adapter.controllers;
+
+import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
+import br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCase;
+import org.springframework.stereotype.Component;
+
+@Component
+public class PagamentoControllerDomain {
+
+    private final PagamentoUseCase pagamentoUseCase;
+
+    public PagamentoControllerDomain(PagamentoUseCase pagamentoUseCase) {
+        this.pagamentoUseCase = pagamentoUseCase;
+    }
+
+    public Object realiza(PagamentoDTO pagamentoDTO) {
+        return pagamentoUseCase.pagamento(pagamentoDTO);
+    }
+
+}

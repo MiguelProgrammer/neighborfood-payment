@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+  title: Swagger NeighborFood - Pagamento - OpenAPI 3.0
+  description: |-
+    Fiap Challenge - Phase 2 - NeighborFood Project
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: miguel.silva@mackenzista.com.br
+  version: 0.0.2
+
+tags:
+
+  - name: payment
+    description: "Realização do pagamento"
+
+
+paths:
+
+  /neighborfood/pagamento:
+    post:
+      tags:
+        - payment
+      summary: Realiza o pagamento do pedido
+      description: Realiza pagamento
+      operationId: payment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PagamentoDTO'
+      responses:
+        '200':
+          description: pagamento realizado com sucesso.
+          content:
+            image/png:
+              schema:
+                type: string
+        '400':
+          description: Id inválido
+        '404':
+          description: Pedido não encontrado
+
+components:
+  schemas:
+
+    PagamentoDTO:
+      type: object
+      properties:
+        idPedido:
+          type: integer
+          format: int64
+        total:
+          type: number
+          format: double
+        valorParaPagar:
+          type: number
+          format: double
