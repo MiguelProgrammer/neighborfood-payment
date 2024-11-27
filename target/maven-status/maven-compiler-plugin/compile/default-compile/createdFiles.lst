@@ -16,7 +16,8 @@ br\com\techchallenge\fiap\neighborfood\core\domain\pagamento\Pagamento.class
 _generated_sources_swagger_pagamento\ApiUtil.class
 br\com\techchallenge\fiap\neighborfood\adapter\presenter\AcompanhamentoResponse.class
 br\com\techchallenge\fiap\neighborfood\core\domain\dto\PagamentoDTO.class
+br\com\techchallenge\fiap\neighborfood\adapter\gateways\PagamentoGatewayMapper.class
 br\com\techchallenge\fiap\neighborfood\NeighborfoodApplication.class
-br\com\techchallenge\fiap\neighborfood\adapter\gateways\PagamentoGateway.class
+br\com\techchallenge\fiap\neighborfood\adapter\presenter\PagamentoResponseMapper.class
 br\com\techchallenge\fiap\neighborfood\config\exceptions\PedidoException.class
 br\com\techchallenge\fiap\neighborfood\config\exceptions\UsuarioException.class

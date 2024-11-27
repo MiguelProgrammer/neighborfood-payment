@@ -4,17 +4,15 @@
 
 package br.com.techchallenge.fiap.neighborfood.infrastructure.gateways;
 
-import br.com.techchallenge.fiap.neighborfood.adapter.gateways.PagamentoGateway;
-import br.com.techchallenge.fiap.neighborfood.adapter.presenter.AcompanhamentoResponse;
+import br.com.techchallenge.fiap.neighborfood.adapter.gateways.PagamentoGatewayMapper;
 import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
 import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepository;
 import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities.PagamentoEntity;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PagamentoRepositoryGateway implements PagamentoGateway {
+public class PagamentoRepositoryGateway implements PagamentoGatewayMapper {
 
-    private AcompanhamentoResponse acompanhamentoResponse;
     private final PagamentoRepository pagamentoRepository;
 
     public PagamentoRepositoryGateway(PagamentoRepository pagamentoRepository) {
@@ -22,11 +20,12 @@ public class PagamentoRepositoryGateway implements PagamentoGateway {
     }
 
     @Override
-    public Object pagamento(PagamentoDTO pagamento) {
+    public PagamentoEntity pagamento(PagamentoDTO pagamento) {
         PagamentoEntity entity = new PagamentoEntity();
         entity.setIdPedido(pagamento.getIdPedido());
-        //entity.setPagou(pagamento.getPagou());
-        PagamentoEntity save = pagamentoRepository.save(entity);
-        return null;//acompanhamentoResponse.getOrderStatus(save.getIdPedido());
+        entity.setValorParaPagar(pagamento.getValorParaPagar());
+        entity.setTotal(pagamento.getTotal());
+        entity.setPagou(Boolean.TRUE);
+        return pagamentoRepository.save(entity);
     }
 }

@@ -5,39 +5,38 @@
 package br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento;
 
 
-import br.com.techchallenge.fiap.neighborfood.adapter.presenter.AcompanhamentoResponse;
+import br.com.techchallenge.fiap.neighborfood.adapter.gateways.PagamentoGatewayMapper;
+import br.com.techchallenge.fiap.neighborfood.adapter.presenter.PagamentoResponseMapper;
 import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
+import br.com.techchallenge.fiap.neighborfood.core.domain.pagamento.Pagamento;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PagamentoUseCase {
 
-    public Object pagamento(PagamentoDTO pagamento) {
+    private PagamentoGatewayMapper pagamentoGatewayMapper;
 
-        //Pedido pedidoDTO = null;//pedidoGateway.findById(pagamento.getIdPedido());
-        AcompanhamentoResponse response = new AcompanhamentoResponse();
-        //if (pedidoDTO != null) {
+    public PagamentoUseCase(PagamentoGatewayMapper pagamentoGatewayMapper) {
+        this.pagamentoGatewayMapper = pagamentoGatewayMapper;
+    }
 
-            //pedidoGateway.salvaPagamento(pagamento);
+    public Pagamento pagamento(PagamentoDTO pagamento) {
 
-            System.out.println("Pagamento Aprovado!");
+        Pagamento pagamentoDTO = null;
+        if (pagamento.getIdPedido() != null) {
 
-            try {
+            if (pagamento.getValorParaPagar().compareTo(pagamento.getTotal()) > 0) {
+                try {
+                    pagamentoDTO = PagamentoResponseMapper.entityToDto(pagamentoGatewayMapper.pagamento(pagamento));
+                } catch (RuntimeException ex) {
+                    System.err.println("Erro ao realizar pagamento => Pedido não encontrado!!!");
+                }
 
-                //pedidoDTO.setStatus(Status.EM_PREPARACAO);
-//                response.setPedidoRequest(
-//                        response.convertPedidoRequest(
-//                                pedidoGateway.commitUpdates(pedidoDTO.domainFromEntity())));
-//                System.out.println(acompanhamentoGateway.sms(pedidoDTO.getStatus()));
-//                response.setStatus(pedidoDTO.getStatus());
-//                response.setTotal(pedidoDTO.getTotal());
-
-
-
-            } catch (RuntimeException ex) {
-                System.err.println("Erro ao realizar pagamento => Pedido não encontrado!!!");
+            } else {
+                System.err.println("Valor insuficiente para pagamento!");
             }
-        //}
-        return null;//response.pedidoFromResponse();
+            return pagamentoDTO;
+        }
+        return null;
     }
 }

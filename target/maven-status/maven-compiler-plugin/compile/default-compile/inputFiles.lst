@@ -1,8 +1,8 @@
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\core\domain\enums\Status.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exceptions\PedidoException.java
+C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\adapter\presenter\PagamentoResponseMapper.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\infrastructure\persistence\payment\entities\PagamentoEntity.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\NeighborfoodApplication.java
-C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\adapter\gateways\PagamentoGateway.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\adapter\presenter\MapperUser.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\core\domain\enums\Categoria.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\infrastructure\persistence\payment\PagamentoRepository.java
@@ -11,6 +11,7 @@ C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\b
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\core\usecase\pagamento\PagamentoUseCase.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\adapter\controllers\PagamentoControllerDomain.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\framework\web\PagamentoController.java
+C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\adapter\gateways\PagamentoGatewayMapper.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\src\main\java\br\com\techchallenge\fiap\neighborfood\infrastructure\gateways\PagamentoRepositoryGateway.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\target\generated-sources\openapi\src\main\java\br\com\techchallenge\fiap\neighborfood\core\domain\dto\PagamentoDTO.java
 C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\target\generated-sources\openapi\src\main\java\_generated_sources_swagger_pagamento\NeighborfoodApi.java

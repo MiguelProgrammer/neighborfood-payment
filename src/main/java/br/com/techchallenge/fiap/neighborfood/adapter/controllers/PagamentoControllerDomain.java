@@ -5,6 +5,7 @@
 package br.com.techchallenge.fiap.neighborfood.adapter.controllers;
 
 import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
+import br.com.techchallenge.fiap.neighborfood.core.domain.pagamento.Pagamento;
 import br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCase;
 import org.springframework.stereotype.Component;
 
@@ -17,8 +18,8 @@ public class PagamentoControllerDomain {
         this.pagamentoUseCase = pagamentoUseCase;
     }
 
-    public Object realiza(PagamentoDTO pagamentoDTO) {
-        return pagamentoUseCase.pagamento(pagamentoDTO);
+    public Pagamento realiza(PagamentoDTO pagamentoDTO) {
+        return pagamentoUseCase.pagamento(pagamentoDTO); 
     }
 
 }

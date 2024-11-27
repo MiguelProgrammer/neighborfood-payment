@@ -33,9 +33,9 @@ paths:
         '200':
           description: pagamento realizado com sucesso.
           content:
-            image/png:
+            application/json:
               schema:
-                type: string
+                $ref: '#/components/schemas/PagamentoDTO'
         '400':
           description: Id inválido
         '404':
@@ -56,3 +56,5 @@ components:
         valorParaPagar:
           type: number
           format: double
+        pagou:
+          type: boolean

@@ -32,7 +32,7 @@ import java.util.Map;
 import java.util.Optional;
 import jakarta.annotation.Generated;
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-11-17T13:41:02.500807600-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-11-26T22:12:09.961906400-03:00[America/Sao_Paulo]")
 @Validated
 @Tag(name = "payment", description = "Realização do pagamento")
 public interface NeighborfoodApi {
@@ -57,7 +57,7 @@ public interface NeighborfoodApi {
         tags = { "payment" },
         responses = {
             @ApiResponse(responseCode = "200", description = "pagamento realizado com sucesso.", content = {
-                @Content(mediaType = "image/png", schema = @Schema(implementation = String.class))
+                @Content(mediaType = "application/json", schema = @Schema(implementation = PagamentoDTO.class))
             }),
             @ApiResponse(responseCode = "400", description = "Id inválido"),
             @ApiResponse(responseCode = "404", description = "Pedido não encontrado")
@@ -66,12 +66,21 @@ public interface NeighborfoodApi {
     @RequestMapping(
         method = RequestMethod.POST,
         value = "/neighborfood/pagamento",
-        produces = { "image/png" },
+        produces = { "application/json" },
         consumes = { "application/json" }
     )
-    default ResponseEntity<String> payment(
+    default ResponseEntity<PagamentoDTO> payment(
         @Parameter(name = "PagamentoDTO", description = "", required = true) @Valid @RequestBody PagamentoDTO pagamentoDTO
     ) {
+        getRequest().ifPresent(request -> {
+            for (MediaType mediaType: MediaType.parseMediaTypes(request.getHeader("Accept"))) {
+                if (mediaType.isCompatibleWith(MediaType.valueOf("application/json"))) {
+                    String exampleString = "{ \"total\" : 6.027456183070403, \"valorParaPagar\" : 1.4658129805029452, \"pagou\" : true, \"idPedido\" : 0 }";
+                    ApiUtil.setExampleResponse(request, "application/json", exampleString);
+                    break;
+                }
+            }
+        });
         return new ResponseEntity<>(HttpStatus.NOT_IMPLEMENTED);
 
     }

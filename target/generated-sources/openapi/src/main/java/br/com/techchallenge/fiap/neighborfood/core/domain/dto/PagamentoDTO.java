@@ -18,7 +18,7 @@ import jakarta.annotation.Generated;
  * PagamentoDTO
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-11-17T13:41:02.500807600-03:00[America/Sao_Paulo]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-11-26T22:12:09.961906400-03:00[America/Sao_Paulo]")
 public class PagamentoDTO {
 
   private Long idPedido;
@@ -26,6 +26,8 @@ public class PagamentoDTO {
   private java.math.BigDecimal total;
 
   private java.math.BigDecimal valorParaPagar;
+
+  private Boolean pagou;
 
   public PagamentoDTO idPedido(Long idPedido) {
     this.idPedido = idPedido;
@@ -87,6 +89,26 @@ public class PagamentoDTO {
     this.valorParaPagar = valorParaPagar;
   }
 
+  public PagamentoDTO pagou(Boolean pagou) {
+    this.pagou = pagou;
+    return this;
+  }
+
+  /**
+   * Get pagou
+   * @return pagou
+  */
+  
+  @Schema(name = "pagou", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pagou")
+  public Boolean getPagou() {
+    return pagou;
+  }
+
+  public void setPagou(Boolean pagou) {
+    this.pagou = pagou;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -98,12 +120,13 @@ public class PagamentoDTO {
     PagamentoDTO pagamentoDTO = (PagamentoDTO) o;
     return Objects.equals(this.idPedido, pagamentoDTO.idPedido) &&
         Objects.equals(this.total, pagamentoDTO.total) &&
-        Objects.equals(this.valorParaPagar, pagamentoDTO.valorParaPagar);
+        Objects.equals(this.valorParaPagar, pagamentoDTO.valorParaPagar) &&
+        Objects.equals(this.pagou, pagamentoDTO.pagou);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(idPedido, total, valorParaPagar);
+    return Objects.hash(idPedido, total, valorParaPagar, pagou);
   }
 
   @Override
@@ -113,6 +136,7 @@ public class PagamentoDTO {
     sb.append("    idPedido: ").append(toIndentedString(idPedido)).append("\n");
     sb.append("    total: ").append(toIndentedString(total)).append("\n");
     sb.append("    valorParaPagar: ").append(toIndentedString(valorParaPagar)).append("\n");
+    sb.append("    pagou: ").append(toIndentedString(pagou)).append("\n");
     sb.append("}");
     return sb.toString();
   }
