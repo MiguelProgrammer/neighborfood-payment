@@ -5,27 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/adapter/presenter/PagamentoResponseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/infrastructure/persistence/payment/PagamentoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/adapter/controllers/PagamentoControllerDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/adapter/controllers/PagamentoControllerDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/adapter/gateways/PagamentoGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/adapter/gateways/PagamentoGatewayMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/infrastructure/gateways/PagamentoRepositoryGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/infrastructure/gateways/PagamentoRepositoryGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/infrastructure/persistence/payment/entities/PagamentoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/infrastructure/persistence/payment/entities/PagamentoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/api/resource_pagamento.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/api/resource_pagamento.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/resource_pagamento.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/resource_pagamento.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/resource_pagamento.yml-api-pagamento.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/resource_pagamento.yml-api-pagamento.sha256" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/neighborfood-payment-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/neighborfood-payment-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/resource_pagamento.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator-ignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/FILES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/.openapi-generator/resource_pagamento.yml-api-pagamento.sha256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/ApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/neighborfood-payment-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,10 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Miguel Silva\Documents\Pos\fase4\neighborfood-pagamento\htmlReport" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,6 +48,9 @@
         <option value="Dockerfile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -67,55 +76,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NeighborfoodApp.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NeighborfoodAppl.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [clean,install,-U...].executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.neighborfood [clean,install,-U].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [clean,install,-X...].executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.neighborfood [clean,install,-X].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [package,-DforkCount=0...].executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.neighborfood [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [site:site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood [site].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood-payment [clean,install,-U].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.neighborfood-payment [clean,install,-X].executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
-    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
-    &quot;OpenRewrite.UpgradeSpringBoot_3_2.executor&quot;: &quot;Run&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.NeighborfoodApplication.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Miguel Silva/Documents/Pos/fase4/neighborfood-producao&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3045977&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.NeighborfoodApp.executor": "Debug",
+    "Application.NeighborfoodAppl.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.All in neighborfood-payment (1).executor": "Coverage",
+    "JUnit.All in neighborfood-payment.executor": "Debug",
+    "JUnit.PagamentoRepositoryTest.deleteInBatch.executor": "Run",
+    "JUnit.PagamentoRepositoryTest.executor": "Run",
+    "JUnit.PagamentoRepositoryTest.findByIdPedido.executor": "Run",
+    "JUnit.PagamentoRepositoryTest.save.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Maven.neighborfood [clean,install,-U...].executor": "Debug",
+    "Maven.neighborfood [clean,install,-U].executor": "Run",
+    "Maven.neighborfood [clean,install,-X...].executor": "Debug",
+    "Maven.neighborfood [clean,install,-X].executor": "Run",
+    "Maven.neighborfood [clean,install].executor": "Run",
+    "Maven.neighborfood [package,-DforkCount=0...].executor": "Debug",
+    "Maven.neighborfood [package].executor": "Run",
+    "Maven.neighborfood [site:site].executor": "Run",
+    "Maven.neighborfood [site].executor": "Run",
+    "Maven.neighborfood-payment [clean,install,-U].executor": "Run",
+    "Maven.neighborfood-payment [clean,install,-X].executor": "Run",
+    "Maven.neighborfood-payment [install:install].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "OpenRewrite.UpgradeSpringBoot_3_2.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.NeighborfoodApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "developer",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Miguel Silva/Documents/Pos/fase4/neighborfood-producao",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3045977",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Groovy compiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.techchallenge.fiap.neighborfood.config" />
@@ -134,8 +155,15 @@
       <recent name="C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood-v2\src\main\java\br\com\techchallenge\fiap\neighborfood\config\exception\beans" />
       <recent name="C:\Users\MP-Silva\OneDrive\Documentos\Projetos Java\neighborfood\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.techchallenge.fiap.neighborfood" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.techchallenge.fiap.neighborfood.adapter.presenter" />
@@ -145,7 +173,7 @@
       <recent name="br.com.techchallenge.fiap.neighborfood.adapters.outbound.repository.jpa" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PagamentoRepositoryTest">
     <configuration name="NeighborfoodApp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.NeighborfoodApplication" />
       <module name="neighborfood-payment" />
@@ -168,6 +196,119 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in neighborfood-payment (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in neighborfood-payment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagamentoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment" />
+      <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagamentoRepositoryTest.findByIdPedido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment" />
+      <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest" />
+      <option name="METHOD_NAME" value="findByIdPedido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagamentoRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment" />
+      <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.NeighborfoodApp" />
+      <item itemvalue="JUnit.All in neighborfood-payment" />
+      <item itemvalue="JUnit.All in neighborfood-payment (1)" />
+      <item itemvalue="JUnit.PagamentoRepositoryTest.save" />
+      <item itemvalue="JUnit.PagamentoRepositoryTest" />
+      <item itemvalue="JUnit.PagamentoRepositoryTest.findByIdPedido" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PagamentoRepositoryTest" />
+        <item itemvalue="JUnit.PagamentoRepositoryTest.findByIdPedido" />
+        <item itemvalue="JUnit.All in neighborfood-payment (1)" />
+        <item itemvalue="JUnit.PagamentoRepositoryTest.save" />
+        <item itemvalue="JUnit.All in neighborfood-payment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -496,5 +637,9 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__1_.ic" NAME="All in neighborfood-payment (1) Coverage Results" MODIFIED="1732794313076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment.ic" NAME="All in neighborfood-payment Coverage Results" MODIFIED="1732790066508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
