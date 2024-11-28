@@ -8,5 +8,26 @@
       <option name="processLiterals" value="true" />
       <option name="processComments" value="true" />
     </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="neighborfood-payment" />
+          <option value="neighborfood-payment" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.apache.tomcat.embed:tomcat-embed-core:10.1.20" />
+          <option value="org.springframework:spring-context:6.1.6" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="In progress" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>

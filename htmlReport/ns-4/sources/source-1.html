@@ -1,0 +1,202 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
+  <title>Coverage Report > AcompanhamentoResponse</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">br.com.techchallenge.fiap.neighborfood.adapter.presenter</a>
+</div>
+
+<h1>Coverage Summary for Class: AcompanhamentoResponse (br.com.techchallenge.fiap.neighborfood.adapter.presenter)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">AcompanhamentoResponse</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package br.com.techchallenge.fiap.neighborfood.adapter.presenter;/*
+&nbsp; * Copyright (c) 2024. MiguelProgrammer
+&nbsp; */
+&nbsp;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;
+&nbsp;public class AcompanhamentoResponse {
+&nbsp;
+&nbsp;    private BigDecimal total;
+&nbsp;
+<b class="nc">&nbsp;    public AcompanhamentoResponse() {</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public AcompanhamentoResponse(BigDecimal total) {</b>
+<b class="nc">&nbsp;        this.total = total;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;//    public AcompanhamentoResponseDTO pedidoEntityFromResponse(PedidoEntity pedidoEntity) {
+&nbsp;//        AcompanhamentoResponseDTO response = new AcompanhamentoResponseDTO();
+&nbsp;//        Set&lt;ItemPedido&gt; itensPedido = new HashSet&lt;&gt;();
+&nbsp;//        itensPedido.forEach(item -&gt; item.setIdPedido(pedidoEntity.getId()));
+&nbsp;//        PedidoRequestDTO request = new PedidoRequestDTO();
+&nbsp;//        request.setIdCliente(pedidoEntity.getIdCliente());
+&nbsp;//
+&nbsp;//        pedidoEntity.getItensProdutos().forEach(item -&gt; {
+&nbsp;//            ItemPedido item1 = new ItemPedido();
+&nbsp;//            item1.setId(item.getId());
+&nbsp;//            item1.setIdPedido(item.getIdPedido());
+&nbsp;//            ProdutoDTO produtoDTO = new ProdutoDTO();
+&nbsp;//            produtoDTO.setId(item.getIdProduto());
+&nbsp;//            produtoDTO.setNome(item.getNome());
+&nbsp;//            produtoDTO.setDescricao(item.getDescricao());
+&nbsp;//            produtoDTO.setCategoria(CategoriaDTO.valueOf(String.valueOf(item.getCategoria())));
+&nbsp;//            produtoDTO.setPreco(item.getPreco());
+&nbsp;//            produtoDTO.setImg(item.getImg());
+&nbsp;//            item1.setProduto(produtoDTO);
+&nbsp;//            itensPedido.add(item1);
+&nbsp;//        });
+&nbsp;//        request.setItensPedido(itensPedido.stream().toList());
+&nbsp;//        response.setTotal(pedidoEntity.getTotal());
+&nbsp;//        //this.convertPedidoRequest(request);
+&nbsp;//        response.setPedido(request);
+&nbsp;//        request.setId(pedidoEntity.getId());
+&nbsp;//        return response;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//    public PedidoRequest getPedidoRequest() {
+&nbsp;//        return pedidoRequest;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//    public void convertPedidoRequest(PedidoRequest pedidoRequest) {
+&nbsp;//        this.pedidoRequest = pedidoRequest;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//    public void setPedidoRequest(PedidoRequest pedidoRequest) {
+&nbsp;//        this.pedidoRequest = pedidoRequest;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//
+&nbsp;//    public BigDecimal getTotal() {
+&nbsp;//        return total;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//    public void setTotal(BigDecimal total) {
+&nbsp;//        this.total = total;
+&nbsp;//    }
+&nbsp;//
+&nbsp;//    public PedidoRequest convertPedidoRequest(Pedido pedido) {
+&nbsp;//        PedidoRequest request = new PedidoRequest();
+&nbsp;//        List&lt;Item&gt; itens = new ArrayList&lt;&gt;();
+&nbsp;//        request.setId(pedido.getId());
+&nbsp;//        request.setIdCliente(pedido.getIdCliente());
+&nbsp;//        pedido.getItensProdutos().forEach(item -&gt; {
+&nbsp;//            Item produto = new Item();
+&nbsp;//            produto.setId(item.getId());
+&nbsp;//            produto.setIdProduto(item.getIdProduto());
+&nbsp;//            produto.setIdPedido(item.getIdPedido());
+&nbsp;//            produto.setNome(item.getNome());
+&nbsp;//            produto.setCategoria(item.getCategoria());
+&nbsp;//            produto.setDescricao(item.getDescricao());
+&nbsp;//            produto.setPreco(item.getPreco());
+&nbsp;//            produto.setImg(item.getImg());
+&nbsp;//            itens.add(produto);
+&nbsp;//        });
+&nbsp;//
+&nbsp;//        request.setItensPedido(new HashSet&lt;&gt;(itens));
+&nbsp;//        return request;
+&nbsp;//    }
+&nbsp;
+&nbsp;}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-11-28 08:45</div>
+</div>
+</body>
+</html>
