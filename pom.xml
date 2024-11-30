@@ -335,7 +335,7 @@
                         <configuration>
                             <includes>
                                 <include combine.self="override">
-                                    **/*java
+                                    **/*Test
                                 </include>
                                 <excludes combine.self="override">
                                 </excludes>
@@ -369,10 +369,17 @@
                         <configuration>
                             <includes>
                                 <include>
-                                    **/*Test
+                                    **/*CucumberTest.java
                                 </include>
                             </includes>
                         </configuration>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.aspectj</groupId>
+                                <artifactId>aspectjweaver</artifactId>
+                                <version>${aspectj.version}</version>
+                            </dependency>
+                        </dependencies>
                     </plugin>
                 </plugins>
             </build>
