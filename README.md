@@ -11,15 +11,15 @@
 * <img src="https://i.imgur.com/0ZVGptE.png">
 * <img src="https://i.imgur.com/T8PrlVV.png">
 
-# Cacoco Report
+# Jacoco Report
 * <img src="https://i.imgur.com/gFB7Xqc.png"> 
 
-# profiles test unit and integration
+# Profiles test unit and integration
 ```
 mvn -P integration-test
 ```
 
-# profiles test system
+# Profiles test system
 ```
 mvn -P system-test
 ```
