@@ -9,6 +9,16 @@
   * <img src="https://i.imgur.com/0ZVGptE.png">
   * <img src="https://i.imgur.com/T8PrlVV.png">
 
+# profiles test unit and integration
+```
+mvn -P integration-test
+```
+
+# profiles test system
+```
+mvn -P system-test
+```
+
 <h3>Project aims to refactor the architecture used in the project <a href="https://github.com/MiguelProgrammer/neighborfood">Neighborfood - Ports and Adapters</h3><hr>
 
 <h3>Neighborfood-app</h3>

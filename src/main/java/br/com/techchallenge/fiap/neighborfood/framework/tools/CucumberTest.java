@@ -15,6 +15,7 @@ import org.junit.platform.suite.api.Suite;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.ActiveProfiles;
 
 import java.math.BigDecimal;
 
@@ -22,8 +23,8 @@ import static io.restassured.RestAssured.given;
 
 @Suite
 @IncludeEngines("cucumber")
-@SuppressWarnings("test")
 @SelectClasspathResource("features")
+@ActiveProfiles({"system-test"})
 public class CucumberTest {
 
     private static final Logger log = LoggerFactory.getLogger(CucumberTest.class);
