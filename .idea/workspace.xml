@@ -5,6 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/ApiUtil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/ApiUtil.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/NeighborfoodApi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/NeighborfoodApi.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.controllers/PagamentoControllerDomain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.controllers/PagamentoControllerDomain.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.controllers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.controllers/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.presenter/PagamentoResponseMapper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.presenter/PagamentoResponseMapper.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.presenter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.adapter.presenter/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.config.beans/BeanConfig.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.config.beans/BeanConfig.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.config.beans/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.config.beans/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/PagamentoDTO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/PagamentoDTO.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.pagamento/Pagamento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.pagamento/Pagamento.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.pagamento/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.pagamento/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento/PagamentoUseCase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento/PagamentoUseCase.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.web/PagamentoController.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.web/PagamentoController.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.web/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.gateways/PagamentoRepositoryGateway.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.gateways/PagamentoRepositoryGateway.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.gateways/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.gateways/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities/PagamentoEntity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities/PagamentoEntity.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood/NeighborfoodApplication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood/NeighborfoodApplication.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -677,27 +758,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="327" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>42</line>
+          <line>44</line>
           <option name="timeStamp" value="329" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>44</line>
+          <line>46</line>
           <option name="timeStamp" value="330" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -712,7 +793,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>47</line>
+          <line>49</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
