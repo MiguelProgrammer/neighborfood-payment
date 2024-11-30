@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/pagamento.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/pagamento.feature" afterDir="false" />
-    </list>
+    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
   "keyToString": {
     "Application.NeighborfoodApp.executor": "Run",
     "Application.NeighborfoodAppl.executor": "Run",
-    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Run",
+    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Coverage",
     "Cucumber Java.Feature: pagamento (1).executor": "Coverage",
     "Cucumber Java.Feature: pagamento.executor": "Coverage",
     "Cucumber Java.Funcionalidade: pagamento.executor": "Coverage",
@@ -797,7 +794,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__1_.ic" NAME="All in neighborfood-payment (1) Coverage Results" MODIFIED="1732981972098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_Features_in__neighborfood_pagamento.ic" NAME="All Features in: neighborfood-pagamento Coverage Results" MODIFIED="1732974363206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_Features_in__neighborfood_pagamento.ic" NAME="All Features in: neighborfood-pagamento Coverage Results" MODIFIED="1732982389938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__4_.ic" NAME="All in neighborfood-payment (4) Coverage Results" MODIFIED="1732935468659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
