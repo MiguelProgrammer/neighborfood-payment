@@ -1,25 +1,25 @@
 <h2>Module Payment of Neighborfood Application - Clean Architecture</h2>
 
-# Alurre Report dashboard
+# Allure Report dashboard
 * <img src="https://i.imgur.com/Tjj112t.png">
 
 # Cucumber
-  * <img src="https://i.imgur.com/wjaUkJq.png">
-  * <img src="https://i.imgur.com/mjtElYc.png">
+* <img src="https://i.imgur.com/wjaUkJq.png">
+* <img src="https://i.imgur.com/mjtElYc.png">
 
 # jUnit & Mockito
 * <img src="https://i.imgur.com/0ZVGptE.png">
 * <img src="https://i.imgur.com/T8PrlVV.png">
 
-# Cacoco Report
+# Jacoco Report
 * <img src="https://i.imgur.com/gFB7Xqc.png"> 
 
-# profiles test unit and integration
+# Profiles test unit and integration
 ```
 mvn -P integration-test
 ```
 
-# profiles test system
+# Profiles test system
 ```
 mvn -P system-test
 ```
