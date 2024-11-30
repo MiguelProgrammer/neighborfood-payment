@@ -63,13 +63,13 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
-      - name: Run tests
+      - name: Run tests unit & mocks
         run: mvn test
 
-      - name: Run tests
+      - name: Run tests integration
         run: mvn test -P integration-test
 
-      - name: Run tests
+      - name: Run tests system [E2E]
         run: mvn test -P system-test
 
   publish:
