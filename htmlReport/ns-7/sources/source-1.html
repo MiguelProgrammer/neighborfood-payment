@@ -5,7 +5,7 @@
 <html id="htmlId">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
-  <title>Coverage Report > Finals</title>
+  <title>Coverage Report > Pagamento</title>
   <style type="text/css">
     @import "../../css/coverage.css";
     @import "../../css/idea.min.css";
@@ -19,10 +19,10 @@
 <div class="breadCrumbs">
 Current scope:     <a href="../../index.html">all classes</a>
     <span class="separator">|</span>
-    <a href="../index.html">br.com.techchallenge.fiap.neighborfood.core.domain</a>
+    <a href="../index.html">br.com.techchallenge.fiap.neighborfood.core.domain.pagamento</a>
 </div>
 
-<h1>Coverage Summary for Class: Finals (br.com.techchallenge.fiap.neighborfood.core.domain)</h1>
+<h1>Coverage Summary for Class: Pagamento (br.com.techchallenge.fiap.neighborfood.core.domain.pagamento)</h1>
 
 <table class="coverageStats">
 <tr>
@@ -41,29 +41,29 @@ Current scope:     <a href="../../index.html">all classes</a>
 </th>
 </tr>
 <tr>
-  <td class="name">Finals</td>
+  <td class="name">Pagamento</td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    100%
   </span>
   <span class="absValue">
-    (0/1)
+    (1/1)
   </span>
 </td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    87.5%
   </span>
   <span class="absValue">
-    (0/1)
+    (7/8)
   </span>
 </td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    63.6%
   </span>
   <span class="absValue">
-    (0/1)
+    (7/11)
   </span>
 </td>
 </tr>
@@ -75,54 +75,52 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 
 <pre>
-<code class="sourceCode" id="sourceCode">&nbsp;package br.com.techchallenge.fiap.neighborfood.core.domain;/*
+<code class="sourceCode" id="sourceCode">&nbsp;package br.com.techchallenge.fiap.neighborfood.core.domain.pagamento;
+&nbsp;/*
 &nbsp; * Copyright (c) 2024. MiguelProgrammer
 &nbsp; */
 &nbsp;
-<b class="nc">&nbsp;public class Finals {</b>
+&nbsp;
+&nbsp;public class Pagamento {
+&nbsp;
+&nbsp;    private Long id;
+&nbsp;    private Long idPedido;
+&nbsp;    private Boolean pagou;
+&nbsp;
+<b class="fc">&nbsp;    public Pagamento() {</b>
+&nbsp;    }
+&nbsp;
+<b class="nc">&nbsp;    public Pagamento(Long id, Long idPedido, Boolean pagou) {</b>
+<b class="nc">&nbsp;        this.id = id;</b>
+<b class="nc">&nbsp;        this.idPedido = idPedido;</b>
+<b class="nc">&nbsp;        this.pagou = pagou;</b>
+&nbsp;    }
 &nbsp;
 &nbsp;
-&nbsp;    public static final String MESSAGE_ADM_ESTOQUE =
-&nbsp;            &quot;Caro adm, por favor, veja a quantia de itens cadastrado no estoque!&quot;;
-&nbsp;    public static final String CLIENTE_NOT_FOUND = &quot;\n\nCliente ou Pedido não encontrado!\n\n&quot;;
-&nbsp;    public static final String ITENS_EM_FALLTA = &quot;\n\nItens selecionados em falta!\n\n&quot;;
+&nbsp;    public Long getId() {
+<b class="fc">&nbsp;        return id;</b>
+&nbsp;    }
 &nbsp;
+&nbsp;    public void setId(Long id) {
+<b class="fc">&nbsp;        this.id = id;</b>
+&nbsp;    }
 &nbsp;
-&nbsp;    public static final String MESSAGE = &quot;\n\nUsuário não encontrado ou não cadastrado!\n&quot; +
-&nbsp;            &quot;Por favor, verifique as informações inseridas.&quot;;
-&nbsp;    public static final String MESSAGE_SUCCESS = &quot;Usuário cadastrado com sucesso!&quot;;
-&nbsp;    public static final String MESSAGE_USUARIO_CADASTRADO = &quot;Olá usuário, que bom ter você de volta!&quot;;
-&nbsp;    public static final String MESSAGE_ID_UTILIZADO = &quot;ID utilizado para cadastro já utilizado!&quot;;
+&nbsp;    public Long getIdPedido() {
+<b class="fc">&nbsp;        return idPedido;</b>
+&nbsp;    }
 &nbsp;
-&nbsp;    public static final String MESSAGE_RECEBIDO = &quot;&quot; +
-&nbsp;            &quot;______________________________\n\n&quot; +
-&nbsp;            &quot;Pedido &#39;Recebido&#39;.\n&quot; +
-&nbsp;            &quot;Em instantes será concluído. \n\n&quot; +
-&nbsp;            &quot;SELECIONE:\n&quot; +
-&nbsp;            &quot;1 - Realizar pagamento \n2 - Alterar pedido \n\n&quot; +
-&nbsp;            &quot;______________________________\n\n&quot;;
+&nbsp;    public void setIdPedido(Long idPedido) {
+<b class="fc">&nbsp;        this.idPedido = idPedido;</b>
+&nbsp;    }
 &nbsp;
-&nbsp;    public static final String MESSAGE_FINALIZADO =
-&nbsp;            &quot;______________________________\n\n&quot; +
-&nbsp;                    &quot;Pedido Finalizado.\n\n&quot; +
-&nbsp;                    &quot;Como você é nosso cliente especial, em isntantes você receberá uma notficação&quot; +
-&nbsp;                    &quot; contendo alguns mimos, obrigado e volte sempre \n\n&quot; +
-&nbsp;                    &quot;______________________________\n\n&quot;;
+&nbsp;    public Boolean getPagou() {
+<b class="fc">&nbsp;        return pagou;</b>
+&nbsp;    }
 &nbsp;
-&nbsp;    public static final String MESSAGE_PREPARACAO =
-&nbsp;            &quot;______________________________\n\n&quot; +
-&nbsp;                    &quot;Pedido Em preparação.\n\n&quot; +
-&nbsp;                    &quot;Em instantes será concluído. \n\n&quot; +
-&nbsp;                    &quot;Somente aguarde, obrigado.\n\n&quot; +
-&nbsp;                    &quot;______________________________\n\n&quot;;
-&nbsp;
-&nbsp;    public static final String MESSAGE_PRONTO =
-&nbsp;            &quot;______________________________\n\n&quot; +
-&nbsp;                    &quot;Pedido está Pronto.\n\n&quot; +
-&nbsp;                    &quot;Retire o quanto antes.\n\n&quot; +
-&nbsp;                    &quot;______________________________\n\n&quot;;
+&nbsp;    public void setPagou(Boolean pagou) {
+<b class="fc">&nbsp;        this.pagou = pagou;</b>
+&nbsp;    }
 &nbsp;}
-&nbsp;
 </code>
 </pre>
 </div>
@@ -146,7 +144,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2024-11-28 08:45</div>
+    <div style="float:right;">generated on 2024-11-30 10:48</div>
 </div>
 </body>
 </html>

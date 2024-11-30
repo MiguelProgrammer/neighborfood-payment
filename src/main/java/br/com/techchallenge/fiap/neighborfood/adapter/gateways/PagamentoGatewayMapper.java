@@ -10,4 +10,5 @@ import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment
 public interface PagamentoGatewayMapper {
 
     PagamentoEntity pagamento(PagamentoDTO pagamento);
+    //Pagamento entityToDomain(PagamentoEntity pagamento);
 }

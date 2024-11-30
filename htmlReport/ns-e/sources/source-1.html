@@ -5,7 +5,7 @@
 <html id="htmlId">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
-  <title>Coverage Report > PagamentoEntity</title>
+  <title>Coverage Report > PagamentoRepository</title>
   <style type="text/css">
     @import "../../css/coverage.css";
     @import "../../css/idea.min.css";
@@ -19,55 +19,31 @@
 <div class="breadCrumbs">
 Current scope:     <a href="../../index.html">all classes</a>
     <span class="separator">|</span>
-    <a href="../index.html">br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities</a>
+    <a href="../index.html">br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment</a>
 </div>
 
-<h1>Coverage Summary for Class: PagamentoEntity (br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities)</h1>
+<h1>Coverage Summary for Class: PagamentoRepository (br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment)</h1>
 
 <table class="coverageStats">
+
 <tr>
   <th class="name">Class</th>
-<th class="coverageStat 
-">
-  Class, %
-</th>
-<th class="coverageStat 
-">
-  Method, %
-</th>
-<th class="coverageStat 
-">
-  Line, %
-</th>
 </tr>
+  <tr>
+    <td class="name">PagamentoRepository$MockitoMock$ZEdIBvnO</td>
+  </tr>
+  <tr>
+    <td class="name">PagamentoRepository$MockitoMock$ZEdIBvnO$auxiliary$0Ic5d4Rm</td>
+  </tr>
+  <tr>
+    <td class="name">PagamentoRepository$MockitoMock$ZEdIBvnO$auxiliary$3Fd7ChbZ</td>
+  </tr>
+  <tr>
+    <td class="name">PagamentoRepository$MockitoMock$ZEdIBvnO$auxiliary$fzQvqjtj</td>
+  </tr>
 <tr>
-  <td class="name">PagamentoEntity</td>
-<td class="coverageStat">
-  <span class="percent">
-    100%
-  </span>
-  <span class="absValue">
-    (1/1)
-  </span>
-</td>
-<td class="coverageStat">
-  <span class="percent">
-    37.5%
-  </span>
-  <span class="absValue">
-    (3/8)
-  </span>
-</td>
-<td class="coverageStat">
-  <span class="percent">
-    37.5%
-  </span>
-  <span class="absValue">
-    (3/8)
-  </span>
-</td>
+  <td class="name"><strong>Total</strong></td>
 </tr>
-
 </table>
 
 <br/>
@@ -79,43 +55,18 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp; * Copyright (c) 2024. MiguelProgrammer
 &nbsp; */
 &nbsp;
-&nbsp;package br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities;
+&nbsp;package br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment;
 &nbsp;
-&nbsp;import jakarta.persistence.*;
-&nbsp;import lombok.AllArgsConstructor;
-&nbsp;import lombok.Getter;
-&nbsp;import lombok.NoArgsConstructor;
-&nbsp;import lombok.Setter;
+&nbsp;import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities.PagamentoEntity;
+&nbsp;import org.springframework.data.jpa.repository.JpaRepository;
+&nbsp;import org.springframework.stereotype.Repository;
 &nbsp;
-&nbsp;import java.io.Serializable;
-&nbsp;import java.math.BigDecimal;
+&nbsp;import java.util.Optional;
 &nbsp;
-&nbsp;@Getter
-<b class="fc">&nbsp;@Setter</b>
-&nbsp;@Entity
-<b class="fc">&nbsp;@NoArgsConstructor</b>
-<b class="nc">&nbsp;@AllArgsConstructor</b>
-&nbsp;@Table(name = &quot;pagamento&quot;)
-&nbsp;@SequenceGenerator(name = &quot;pagamento_sequence&quot;)
-&nbsp;public class PagamentoEntity implements Serializable {
+&nbsp;@Repository
+&nbsp;public interface PagamentoRepository extends JpaRepository&lt;PagamentoEntity, Long&gt; {
 &nbsp;
-&nbsp;    private static final long serialVersionUID = 1L;
-&nbsp;
-&nbsp;    @Id
-&nbsp;    @GeneratedValue(strategy = GenerationType.AUTO)
-<b class="nc">&nbsp;    private Long id;</b>
-&nbsp;
-&nbsp;    @Column(name = &quot;id_pedido&quot;)
-<b class="fc">&nbsp;    private Long idPedido;</b>
-&nbsp;
-&nbsp;    @Column(name = &quot;total&quot;)
-<b class="nc">&nbsp;    private BigDecimal total;</b>
-&nbsp;
-&nbsp;    @Column(name = &quot;valor_para_pagar&quot;)
-<b class="nc">&nbsp;    private BigDecimal valorParaPagar;</b>
-&nbsp;
-&nbsp;    @Column(name = &quot;status&quot;)
-<b class="nc">&nbsp;    private Boolean pagou;</b>
+&nbsp;    Optional&lt;PagamentoEntity&gt; findByIdPedido(Long idPedido);
 &nbsp;}
 </code>
 </pre>
@@ -140,7 +91,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2024-11-28 08:45</div>
+    <div style="float:right;">generated on 2024-11-30 10:48</div>
 </div>
 </body>
 </html>

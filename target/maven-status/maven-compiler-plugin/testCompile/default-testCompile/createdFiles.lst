@@ -1,0 +1,3 @@
+br\com\techchallenge\fiap\neighborfood\core\usecase\pagamento\PagamentoUseCaseTest.class
+br\com\techchallenge\fiap\neighborfood\framework\web\PagamentoControllerTest.class
+br\com\techchallenge\fiap\neighborfood\infrastructure\persistence\payment\PagamentoRepositoryTest.class

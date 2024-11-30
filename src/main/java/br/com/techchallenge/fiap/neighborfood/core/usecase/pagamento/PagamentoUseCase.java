@@ -5,19 +5,20 @@
 package br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento;
 
 
-import br.com.techchallenge.fiap.neighborfood.adapter.gateways.PagamentoGatewayMapper;
 import br.com.techchallenge.fiap.neighborfood.adapter.presenter.PagamentoResponseMapper;
 import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
 import br.com.techchallenge.fiap.neighborfood.core.domain.pagamento.Pagamento;
+import br.com.techchallenge.fiap.neighborfood.infrastructure.gateways.PagamentoRepositoryGateway;
+import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities.PagamentoEntity;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PagamentoUseCase {
 
-    private PagamentoGatewayMapper pagamentoGatewayMapper;
+    private PagamentoRepositoryGateway pagamentoRepositoryGateway;
 
-    public PagamentoUseCase(PagamentoGatewayMapper pagamentoGatewayMapper) {
-        this.pagamentoGatewayMapper = pagamentoGatewayMapper;
+    public PagamentoUseCase(PagamentoRepositoryGateway pagamentoRepositoryGateway) {
+        this.pagamentoRepositoryGateway = pagamentoRepositoryGateway;
     }
 
     public Pagamento pagamento(PagamentoDTO pagamento) {
@@ -27,7 +28,8 @@ public class PagamentoUseCase {
 
             if (pagamento.getValorParaPagar().compareTo(pagamento.getTotal()) > 0) {
                 try {
-                    pagamentoDTO = PagamentoResponseMapper.entityToDto(pagamentoGatewayMapper.pagamento(pagamento));
+                    PagamentoEntity pagamentoResponse = pagamentoRepositoryGateway.pagamento(pagamento);
+                    pagamentoDTO = PagamentoResponseMapper.entityToDto(pagamentoResponse);
                 } catch (RuntimeException ex) {
                     System.err.println("Erro ao realizar pagamento => Pedido não encontrado!!!");
                 }
