@@ -217,6 +217,15 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5 -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>2.29.1</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -326,8 +335,20 @@
                                 </include>
                                 <excludes combine.self="override">
                                 </excludes>
+                                <properties>
+                                    <junit.jupiter.extesions.autodetect.enabled>
+                                        true
+                                    </junit.jupiter.extesions.autodetect.enabled>
+                                </properties>
                             </includes>
                         </configuration>
+                        <dependencies>
+                            <dependency>
+                                <groupId>org.aspectj</groupId>
+                                <artifactId>aspectjweaver</artifactId>
+                                <version>${aspectj.version}</version>
+                            </dependency>
+                        </dependencies>
                     </plugin>
                 </plugins>
             </build>

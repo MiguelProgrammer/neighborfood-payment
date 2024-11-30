@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="" />
+    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/infrastructure/persistence/payment/PagamentoRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/infrastructure/persistence/payment/PagamentoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/_generated_sources_swagger_pagamento/NeighborfoodApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/openapi/src/main/java/br/com/techchallenge/fiap/neighborfood/core/domain/dto/PagamentoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/neighborfood-payment-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/neighborfood-payment-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/NeighborfoodApi.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/_generated_sources_swagger_pagamento/NeighborfoodApi.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/PagamentoDTO.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.core.domain.dto/PagamentoDTO.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/br.com.techchallenge.fiap.neighborfood.framework.tools/CucumberTest.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento.PagamentoUseCaseTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.framework.web.PagamentoControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepositoryTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +96,7 @@
   "keyToString": {
     "Application.NeighborfoodApp.executor": "Run",
     "Application.NeighborfoodAppl.executor": "Run",
-    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Coverage",
+    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Run",
     "Cucumber Java.Feature: pagamento (1).executor": "Coverage",
     "Cucumber Java.Feature: pagamento.executor": "Coverage",
     "Cucumber Java.Funcionalidade: pagamento.executor": "Coverage",
@@ -121,6 +147,7 @@
     "Maven.neighborfood-payment [clean,-P...].executor": "Run",
     "Maven.neighborfood-payment [clean,install,-U].executor": "Run",
     "Maven.neighborfood-payment [clean,install,-X].executor": "Run",
+    "Maven.neighborfood-payment [clean,install].executor": "Run",
     "Maven.neighborfood-payment [compile].executor": "Run",
     "Maven.neighborfood-payment [install...].executor": "Run",
     "Maven.neighborfood-payment [install:install].executor": "Run",
@@ -683,7 +710,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>46</line>
+          <line>49</line>
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -723,12 +750,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>49</line>
+          <line>52</line>
           <option name="timeStamp" value="324" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

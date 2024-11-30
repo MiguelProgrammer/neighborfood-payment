@@ -6,6 +6,8 @@ import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
 import br.com.techchallenge.fiap.neighborfood.core.domain.pagamento.Pagamento;
 import br.com.techchallenge.fiap.neighborfood.infrastructure.gateways.PagamentoRepositoryGateway;
 import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.PagamentoRepository;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -34,6 +36,7 @@ public class PagamentoUseCaseTest {
 
 
     @Test
+    @Severity(SeverityLevel.NORMAL)
     @DisplayName("SERVICE - Realiza um pagamento via código de pedido!")
     void pagamento() {
 

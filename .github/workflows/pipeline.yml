@@ -66,9 +66,6 @@ jobs:
       - name: Run tests unit & mocks
         run: mvn test
 
-#      - name: Run tests integration
-#        run: mvn test -P integration-test
-
       - name: Run tests system [E2E]
         run: mvn test -P system-test
 

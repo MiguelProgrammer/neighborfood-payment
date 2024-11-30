@@ -6,6 +6,8 @@ package br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.paymen
 
 
 import br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities.PagamentoEntity;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -38,6 +40,7 @@ public class PagamentoRepositoryTest {
     }
 
     @Test
+    @Severity(SeverityLevel.TRIVIAL)
     @DisplayName("Procurando um pagamento pelo id do pagamento")
     void findByIdPedido() {
 
@@ -59,6 +62,7 @@ public class PagamentoRepositoryTest {
     }
 
     @Test
+    @Severity(SeverityLevel.TRIVIAL)
     @DisplayName("Salvando um pagamento")
     void save() {
 

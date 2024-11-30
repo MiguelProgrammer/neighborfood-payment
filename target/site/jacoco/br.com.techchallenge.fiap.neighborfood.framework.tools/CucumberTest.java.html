@@ -15,7 +15,6 @@ import org.junit.platform.suite.api.Suite;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ActiveProfiles;
 
 import java.math.BigDecimal;
 
@@ -24,40 +23,39 @@ import static io.restassured.RestAssured.given;
 @Suite
 @IncludeEngines(&quot;cucumber&quot;)
 @SelectClasspathResource(&quot;features&quot;)
-@ActiveProfiles({&quot;system-test&quot;})
-<span class="nc" id="L28">public class CucumberTest {</span>
+<span class="nc" id="L26">public class CucumberTest {</span>
 
-<span class="nc" id="L30">    private static final Logger log = LoggerFactory.getLogger(CucumberTest.class);</span>
+<span class="nc" id="L28">    private static final Logger log = LoggerFactory.getLogger(CucumberTest.class);</span>
     private Response response;
-<span class="nc" id="L32">    private final String REST_API_PAGAMENTO = &quot;http://localhost:84/neighborfood/pagamento&quot;;</span>
+<span class="nc" id="L30">    private final String REST_API_PAGAMENTO = &quot;http://localhost:84/neighborfood/pagamento&quot;;</span>
 
     @Quando(&quot;realizo o pagamento&quot;)
     public PagamentoDTO realizo_o_pagamento() {
-<span class="nc" id="L36">        PagamentoDTO pagamento = new PagamentoDTO();</span>
-<span class="nc" id="L37">        pagamento.setIdPedido(1L);</span>
-<span class="nc" id="L38">        pagamento.setValorParaPagar(new BigDecimal(&quot;15.00&quot;));</span>
-<span class="nc" id="L39">        pagamento.setTotal(new BigDecimal(&quot;12.00&quot;));</span>
-<span class="nc" id="L40">        pagamento.setPagou(Boolean.TRUE);</span>
+<span class="nc" id="L34">        PagamentoDTO pagamento = new PagamentoDTO();</span>
+<span class="nc" id="L35">        pagamento.setIdPedido(1L);</span>
+<span class="nc" id="L36">        pagamento.setValorParaPagar(new BigDecimal(&quot;15.00&quot;));</span>
+<span class="nc" id="L37">        pagamento.setTotal(new BigDecimal(&quot;12.00&quot;));</span>
+<span class="nc" id="L38">        pagamento.setPagou(Boolean.TRUE);</span>
 
         try {
 
-<span class="nc" id="L44">            response = given().</span>
-<span class="nc" id="L45">                    contentType(MediaType.APPLICATION_JSON_VALUE)</span>
-<span class="nc" id="L46">                    .body(pagamento)</span>
-<span class="nc" id="L47">                    .when()</span>
-<span class="nc" id="L48">                    .post(REST_API_PAGAMENTO).prettyPeek();</span>
+<span class="nc" id="L42">            response = given().</span>
+<span class="nc" id="L43">                    contentType(MediaType.APPLICATION_JSON_VALUE)</span>
+<span class="nc" id="L44">                    .body(pagamento)</span>
+<span class="nc" id="L45">                    .when()</span>
+<span class="nc" id="L46">                    .post(REST_API_PAGAMENTO).prettyPeek();</span>
 
-<span class="nc" id="L50">            return response.then().extract().as(PagamentoDTO.class);</span>
-<span class="nc" id="L51">        } catch (Exception e){</span>
+<span class="nc" id="L48">            return response.then().extract().as(PagamentoDTO.class);</span>
+<span class="nc" id="L49">        } catch (Exception e){</span>
             //log.info(&quot;ERROR -&gt; {}&quot;, e);
         }
-<span class="nc" id="L54">        return null;</span>
+<span class="nc" id="L52">        return null;</span>
     }
 
     @Então(&quot;recebo um retorno com o pagamento realizado&quot;)
     public void recebo_um_retorno_com_o_pagamento_realizado() {
-<span class="nc" id="L59">        realizo_o_pagamento();</span>
-<span class="nc" id="L60">    }</span>
+<span class="nc" id="L57">        realizo_o_pagamento();</span>
+<span class="nc" id="L58">    }</span>
 
 
 
