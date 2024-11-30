@@ -19,6 +19,11 @@ public class PagamentoRepositoryGateway implements PagamentoGatewayMapper {
         this.pagamentoRepository = pagamentoRepository;
     }
 
+
+    /**
+     * @param pagamento
+     * @return
+     */
     @Override
     public PagamentoEntity pagamento(PagamentoDTO pagamento) {
         PagamentoEntity entity = new PagamentoEntity();

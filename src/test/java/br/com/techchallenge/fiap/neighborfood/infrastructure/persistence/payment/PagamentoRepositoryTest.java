@@ -45,11 +45,12 @@ public class PagamentoRepositoryTest {
         when(pagamentoRepository.findByIdPedido(anyLong())).thenReturn(Optional.of(pagamento));
 
         /* ACT */
-        var pagamentoByIdPedido =  pagamentoRepository.findByIdPedido(pagamento.getIdPedido());
+        var pagamentoByIdPedido = pagamentoRepository.findByIdPedido(pagamento.getIdPedido());
 
         /* ASSERT */
         pagamentoByIdPedido.ifPresent(pd -> {
             assertThat(pd.getIdPedido().equals(pagamento.getIdPedido()));
+            assertThat(pd.getValorParaPagar().equals(pagamento.getValorParaPagar()));
             assertThat(pd.getValorParaPagar().equals(pagamento.getValorParaPagar()));
             assertThat(pd.getPagou().equals(pagamento.getPagou()));
         });
@@ -65,7 +66,7 @@ public class PagamentoRepositoryTest {
         when(pagamentoRepository.save(any(PagamentoEntity.class))).thenReturn(pagamento);
 
         /* ACT */
-        var pagamentoSalvo =  pagamentoRepository.save(pagamento);
+        var pagamentoSalvo = pagamentoRepository.save(pagamento);
 
         /* ASSERT */
         assertThat(pagamentoSalvo).isNotNull().isEqualTo(pagamento);

@@ -12,6 +12,7 @@ public class PagamentoResponseMapper {
     public static Pagamento entityToDto(PagamentoEntity entity){
         Pagamento dto = new Pagamento();
         dto.setIdPedido(entity.getIdPedido());
+        dto.setId(entity.getId());
         dto.setPagou(entity.getPagou());
         return dto;
     }
