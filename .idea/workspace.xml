@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/[-OtherParameters/apps/scoop/current" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[-OtherParameters/buckets/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/install.ps1" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/097362e9-a974-4ae5-9138-b1f073613a2d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/0ddf9eaa-db6f-4c1e-9d19-09c5716e6706-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/12f92706-a6d5-442d-bb14-3052d6e5493b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/176388b7-3199-4bb7-b2dc-409889af0c50-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2be3a62f-1e16-461e-a6c6-77cc5a6934e4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/2c9cc001-50ca-460c-a7c3-7bba1267ab97-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/3d759f69-eda2-4c16-8906-5f64cbdcd027-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/43af4379-343e-4f2d-b51f-7c512f2da32f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/50b77ef0-2bd7-4acc-9dd8-1720cf1e25a7-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/50eda204-bd64-47fa-a22f-e846bdca2534-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/57160991-50a6-47f1-aa96-a767542defce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/5cd2ec50-8ded-4527-9808-30e8de081d79-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/6d86c047-8724-43eb-8f8d-98a7512b3370-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/9c04e031-c816-41e3-b229-bc68e683c6dc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/aaa519db-10ac-4f08-856b-868c2b043f11-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/b3940cc5-5886-47c6-8c45-e268fc2cdd9a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/c1286437-1cee-4a6b-b1db-bdf9cee97b1d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/d5ff2d11-e8f2-41ca-861d-f69b44b26912-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/dbe59d1a-92f2-415a-822b-6bcd8ba37f34-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/e212a5a6-e94a-46c2-b1e6-68ca91a16735-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ef25c994-75c8-49e2-8445-29090e7f12a4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f44b4ef3-53c4-429f-a003-ce6307c820b7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/framework/web/PagamentoControllerTest.java" afterDir="false" />
