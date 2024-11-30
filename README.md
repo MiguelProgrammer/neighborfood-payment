@@ -1,6 +1,6 @@
 <h2>Module Payment of Neighborfood Application - Clean Architecture</h2>
 
-# Alurre Report dashboard
+# Allure Report dashboard
 * <img src="https://i.imgur.com/Tjj112t.png">
 
 # Cucumber
