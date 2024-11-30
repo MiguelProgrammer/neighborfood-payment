@@ -22,7 +22,6 @@ import static io.restassured.RestAssured.given;
 
 @Suite
 @IncludeEngines("cucumber")
-@SuppressWarnings("test")
 @SelectClasspathResource("features")
 public class CucumberTest {
 

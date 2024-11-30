@@ -1,15 +1,32 @@
 <h2>Module Payment of Neighborfood Application - Clean Architecture</h2>
 
+# Alurre Report dashboard
+* <img src="https://i.imgur.com/Tjj112t.png">
 
- # Cucumber
- <img src="https://i.imgur.com/wjaUkJq.png">
- 
- # jUnit & Mockito 
- <img src="https://i.imgur.com/0ZVGptE.png">
+# Cucumber
+  * <img src="https://i.imgur.com/wjaUkJq.png">
+  * <img src="https://i.imgur.com/mjtElYc.png">
+
+# jUnit & Mockito
+* <img src="https://i.imgur.com/0ZVGptE.png">
+* <img src="https://i.imgur.com/T8PrlVV.png">
+
+# Cacoco Report
+* <img src="https://i.imgur.com/gFB7Xqc.png"> 
+
+# profiles test unit and integration
+```
+mvn -P integration-test
+```
+
+# profiles test system
+```
+mvn -P system-test
+```
 
 <h3>Project aims to refactor the architecture used in the project <a href="https://github.com/MiguelProgrammer/neighborfood">Neighborfood - Ports and Adapters</h3><hr>
 
-<h3>Neighborfood-app</h3>  
+<h3>Neighborfood-app</h3>
 
 
 * To upload the application, use the <b>docker-compose up</b> or <b>docker-compose up --build</b> command, use a client for the request, the results are also presented via the console to fill in the response.<hr>
@@ -56,14 +73,14 @@ Clean architecture also says a lot about not dirtying or violating the layers. T
 * With docker-desktop installed, enable the kubernetes engine in docker settings.
 * Using the command line via cmd, navigate to the k8s project directory and run the commands kubectl apply -f filename so that applications can upload containers, pods and services.
 * Using the command line, cmd, run the command minikube service app-neighborfood-service, this way you will have access to the api document, swagger-openapi
-<b>Orchestrating containers with minikube, spinning up two instances</b>
-<img src="https://i.imgur.com/mBdqY67.png" width=800>
+  <b>Orchestrating containers with minikube, spinning up two instances</b>
+  <img src="https://i.imgur.com/mBdqY67.png" width=800>
 <hr>
 
 NEIGHBORFOOD MENU
 
 * 7 - Make payment
-    * 7.1 - There is a Mercado Pago webhook for us to test the payment, the integration of this service should be well used, it is where we will prove a way to plug the service without                 harming our layers.
+  * 7.1 - There is a Mercado Pago webhook for us to test the payment, the integration of this service should be well used, it is where we will prove a way to plug the service without                 harming our layers.
 <hr>
 Happy flow:
 

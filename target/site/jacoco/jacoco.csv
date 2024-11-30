@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.framework.tools,CucumberTest,64,0,0,0,18,0,4,0,4,0
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.adapter.controllers,PagamentoControllerDomain,0,11,0,0,0,4,0,2,0,2
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.infrastructure.gateways,PagamentoRepositoryGateway,0,31,0,0,0,9,0,2,0,2
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.framework.web,PagamentoController,0,19,0,0,0,5,0,2,0,2
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.adapter.presenter,PagamentoResponseMapper,0,43,0,0,0,12,0,3,0,3
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.infrastructure.persistence.payment.entities,PagamentoEntity,25,31,0,0,2,6,3,9,3,9
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.core.domain.pagamento,Pagamento,12,24,0,0,5,11,1,7,1,7
+neighborfood-payment,_generated_sources_swagger_pagamento,NeighborfoodApi,38,0,4,0,10,0,5,0,3,0
+neighborfood-payment,_generated_sources_swagger_pagamento,ApiUtil,27,0,0,0,9,0,2,0,2,0
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.core.domain.dto,PagamentoDTO,158,31,16,0,29,13,16,9,8,9
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.config.beans,BeanConfig,0,8,0,0,0,2,0,2,0,2
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood,NeighborfoodApplication,8,3,0,0,3,1,1,1,1,1
+neighborfood-payment,br.com.techchallenge.fiap.neighborfood.core.usecase.pagamento,PagamentoUseCase,10,28,2,2,4,10,2,2,0,2

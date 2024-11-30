@@ -8,6 +8,8 @@ import br.com.techchallenge.fiap.neighborfood.adapter.controllers.PagamentoContr
 import br.com.techchallenge.fiap.neighborfood.adapter.presenter.PagamentoResponseMapper;
 import br.com.techchallenge.fiap.neighborfood.core.domain.dto.PagamentoDTO;
 import br.com.techchallenge.fiap.neighborfood.core.domain.pagamento.Pagamento;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +31,7 @@ class PagamentoControllerTest {
 
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     @DisplayName("CONTROLLER - Realiza um pagamento end to end!")
     void payment() {
 

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="" />
+    <list default="true" id="b98da9cc-1d07-4246-9de1-00a329614987" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,8 +48,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="C:\dev\apache-maven-4.0.0-rc-1" />
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="customMavenHome" value="C:\dev\apache-maven-3.8.1" />
+        <option name="failureBehavior" value="FAST" />
         <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="outputLevel" value="DISABLED" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -65,16 +70,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.NeighborfoodApp.executor": "Debug",
+    "Application.NeighborfoodApp.executor": "Run",
     "Application.NeighborfoodAppl.executor": "Run",
-    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Coverage",
+    "Cucumber Java.All Features in: neighborfood-pagamento.executor": "Run",
     "Cucumber Java.Feature: pagamento (1).executor": "Coverage",
     "Cucumber Java.Feature: pagamento.executor": "Coverage",
+    "Cucumber Java.Funcionalidade: pagamento.executor": "Coverage",
     "Cucumber Java.Scenario: Realizar um pagamento (1).executor": "Debug",
-    "Cucumber Java.Scenario: Realizar um pagamento.executor": "Run",
+    "Cucumber Java.Scenario: Realizar um pagamento.executor": "Coverage",
     "Cucumber Java.Scenario: realizar um pagamento (1).executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
-    "JUnit.All in neighborfood-payment (1).executor": "Run",
+    "JUnit.All in neighborfood-payment (1).executor": "Coverage",
     "JUnit.All in neighborfood-payment (2).executor": "Coverage",
     "JUnit.All in neighborfood-payment (3).executor": "Coverage",
     "JUnit.All in neighborfood-payment (4).executor": "Coverage",
@@ -96,6 +102,7 @@
     "JUnit.PagamentoRepositoryTestIT.findByIdPedido.executor": "Debug",
     "JUnit.PagamentoUseCaseTest.executor": "Run",
     "JUnit.PagamentoUseCaseTest.pagamento.executor": "Debug",
+    "JUnit.br.com.techchallenge.fiap.neighborfood in neighborfood-payment.executor": "Coverage",
     "JavaScript Debug.index.html.executor": "Run",
     "Maven.Feature: message.executor": "Run",
     "Maven.Feature: pagamento.executor": "Run",
@@ -112,13 +119,20 @@
     "Maven.neighborfood [package].executor": "Run",
     "Maven.neighborfood [site:site].executor": "Run",
     "Maven.neighborfood [site].executor": "Run",
+    "Maven.neighborfood-payment [-P...].executor": "Run",
+    "Maven.neighborfood-payment [clean,-P...].executor": "Run",
     "Maven.neighborfood-payment [clean,install,-U].executor": "Run",
     "Maven.neighborfood-payment [clean,install,-X].executor": "Run",
+    "Maven.neighborfood-payment [clean,install].executor": "Run",
     "Maven.neighborfood-payment [compile].executor": "Run",
     "Maven.neighborfood-payment [install...].executor": "Run",
     "Maven.neighborfood-payment [install:install].executor": "Run",
     "Maven.neighborfood-payment [install].executor": "Run",
     "Maven.neighborfood-payment [package].executor": "Run",
+    "Maven.neighborfood-payment [test,-DforkCount=0...].executor": "Debug",
+    "Maven.neighborfood-payment [test,-P...].executor": "Run",
+    "Maven.neighborfood-payment [test,P...].executor": "Run",
+    "Maven.neighborfood-payment [test].executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
     "Notification.DoNotAsk-Database detector": "true",
     "OpenRewrite.UpgradeSpringBoot_3_2.executor": "Run",
@@ -142,13 +156,13 @@
     "git-widget-placeholder": "developer",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Miguel Silva/Documents/Pos/fase4/neighborfood-pagamento/src/main/resources/features/pagamento.feature",
+    "last_opened_file_path": "C:/Users/Miguel Silva/Documents/Pos/fase4/neighborfood-pagamento",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3045977",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -195,9 +209,9 @@
       <recent name="br.com.techchallenge.fiap.neighborfood.application.gateways" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NeighborfoodApp">
+  <component name="RunManager" selected="Cucumber Java.All Features in: neighborfood-pagamento">
     <configuration name="NeighborfoodApp" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.NeighborfoodApplication" />
       <module name="neighborfood-payment" />
@@ -227,8 +241,29 @@
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="neighborfood-payment" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="All Features in: neighborfood-pagamento" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Funcionalidade: pagamento" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/pagamento.feature" />
+      <option name="GLUE" value="br.com.techchallenge.fiap.neighborfood.framework.tools" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="neighborfood-payment" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: pagamento" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -255,13 +290,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Realizar um pagamento" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/pagamento.feature" />
+      <option name="GLUE" value="br.com.techchallenge.fiap.neighborfood.framework.tools" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="neighborfood-payment" />
+      <option name="NAME_FILTER" value="^Realizar um pagamento$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Realizar um pagamento$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Realizar um pagamento" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.techchallenge.fiap.neighborfood.framework.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.techchallenge.fiap.neighborfood.framework.tools" />
+      <option name="MAIN_CLASS_NAME" value="br.com.techchallenge.fiap.neighborfood.framework.tools.CucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.techchallenge.fiap.neighborfood in neighborfood-payment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="neighborfood-payment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.techchallenge.fiap.neighborfood.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.techchallenge.fiap.neighborfood" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.NeighborfoodApp" />
+      <item itemvalue="Cucumber Java.Funcionalidade: pagamento" />
+      <item itemvalue="Cucumber Java.Scenario: Realizar um pagamento" />
       <item itemvalue="Cucumber Java.All Features in: neighborfood-pagamento" />
+      <item itemvalue="JUnit.CucumberTest" />
+      <item itemvalue="JUnit.br.com.techchallenge.fiap.neighborfood in neighborfood-payment" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.All Features in: neighborfood-pagamento" />
+        <item itemvalue="Cucumber Java.Scenario: Realizar um pagamento" />
+        <item itemvalue="Cucumber Java.Funcionalidade: pagamento" />
+        <item itemvalue="JUnit.br.com.techchallenge.fiap.neighborfood in neighborfood-payment" />
+        <item itemvalue="JUnit.CucumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +686,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>46</line>
+          <line>49</line>
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -618,37 +726,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="323" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/techchallenge/fiap/neighborfood/core/usecase/pagamento/PagamentoUseCaseTest.java</url>
-          <line>49</line>
+          <line>52</line>
           <option name="timeStamp" value="324" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="326" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="327" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="329" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="330" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -663,7 +771,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/techchallenge/fiap/neighborfood/framework/tools/CucumberTest.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
@@ -688,23 +796,29 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__1_.ic" NAME="All in neighborfood-payment (1) Coverage Results" MODIFIED="1732947543664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$Scenario__Realizar_um_pagamento.ic" NAME="Scenario: Realizar um pagamento Coverage Results" MODIFIED="1732947697980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__1_.ic" NAME="All in neighborfood-payment (1) Coverage Results" MODIFIED="1732981972098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_Features_in__neighborfood_pagamento.ic" NAME="All Features in: neighborfood-pagamento Coverage Results" MODIFIED="1732982389938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_Features_in__neighborfood_pagamento.ic" NAME="All Features in: neighborfood-pagamento Coverage Results" MODIFIED="1732974363206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__4_.ic" NAME="All in neighborfood-payment (4) Coverage Results" MODIFIED="1732935468659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1732982087893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>br.com.techchallenge.fiap.neighborfood.framework.tools.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__2_.ic" NAME="All in neighborfood-payment (2) Coverage Results" MODIFIED="1732982054635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$Scenario__Realizar_um_pagamento.ic" NAME="Scenario: Realizar um pagamento Coverage Results" MODIFIED="1732982259754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$br_com_techchallenge_fiap_neighborfood_in_neighborfood_payment.ic" NAME="br.com.techchallenge.fiap.neighborfood in neighborfood-payment Coverage Results" MODIFIED="1732982119548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>br.com.techchallenge.fiap.neighborfood.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$Funcionalidade__pagamento.ic" NAME="Funcionalidade: pagamento Coverage Results" MODIFIED="1732982239249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__3_.ic" NAME="All in neighborfood-payment (3) Coverage Results" MODIFIED="1732974429873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__4_.ic" NAME="All in neighborfood-payment (4) Coverage Results" MODIFIED="1732935468659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__5_.ic" NAME="All in neighborfood-payment (5) Coverage Results" MODIFIED="1732935758937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$Feature__pagamento.ic" NAME="Feature: pagamento Coverage Results" MODIFIED="1732952024932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/neighborfood_pagamento$Feature__pagamento.ic" NAME="Feature: pagamento Coverage Results" MODIFIED="1732982137119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$CucumberTest.ic" NAME="CucumberTest Coverage Results" MODIFIED="1732972864005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>br.com.techchallenge.fiap.neighborfood.framework.tools.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/neighborfood_pagamento$All_in_neighborfood_payment__2_.ic" NAME="All in neighborfood-payment (2) Coverage Results" MODIFIED="1732973108388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/neighborfood_pagamento$Feature__pagamento__1_.ic" NAME="Feature: pagamento (1) Coverage Results" MODIFIED="1732953658634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
