@@ -61,13 +61,16 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Maven
-        run: mvn clean install -U
+        run: mvn clean install -X
 
-      - name: Run tests unit, mocks
-        run: mvn test
+      - name: Build with Maven
+        run: mvn clean install -U
 
       - name: Run tests system [E2E]
         run: mvn test -P system-test
+
+      - name: Run tests unit, mocks
+        run: mvn test
 
   publish:
     runs-on: ubuntu-latest
