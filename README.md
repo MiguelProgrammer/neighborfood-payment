@@ -4,8 +4,8 @@
 * <img src="https://i.imgur.com/Tjj112t.png">
 
 # Cucumber
-  * <img src="https://i.imgur.com/wjaUkJq.png">
-  * <img src="https://i.imgur.com/mjtElYc.png">
+* <img src="https://i.imgur.com/wjaUkJq.png">
+* <img src="https://i.imgur.com/mjtElYc.png">
 
 # jUnit & Mockito
 * <img src="https://i.imgur.com/0ZVGptE.png">
